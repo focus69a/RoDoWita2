@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewOdID"
+        android:layout_width="166dp"
+        android:layout_height="19dp"
+        android:text="Od Kogo"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView_DlaID"
+        android:layout_width="167dp"
+        android:layout_height="23dp"
+        android:text="Dla Kogo"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView_OkresID"
+        android:layout_width="165dp"
+        android:layout_height="27dp"
+        android:text="Od kiedy do kiedy"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView_FirmaID"
+        android:layout_width="165dp"
+        android:layout_height="25dp"
+        android:text="Dotyczy Fimy"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView_ZakresID"
+        android:layout_width="165dp"
+        android:layout_height="25dp"
+        android:text="Dotyczy Zakresu"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/textView_NazwaWlasnaID"
+        android:layout_width="353dp"
+        android:layout_height="27dp"
+        android:text="Nazwa Wlasna Upowaznienia"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <CheckBox
+        android:id="@+id/checkDocID"
+        android:layout_width="63dp"
+        android:layout_height="26dp"
+        android:checked="false"
+        android:text="Doc"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <CheckBox
+        android:id="@+id/checkMovieID"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:text="Film"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="138dp" />
+</android.support.constraint.ConstraintLayout>
